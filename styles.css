@@ -189,6 +189,15 @@ a {
   background: #ffb800;
 }
 
+.logo-area {
+  display: none;
+  height: 96px;
+}
+
+.top-logo {
+  height: 64px;
+}
+
 /* Header */
 
 .main-header {
@@ -199,12 +208,6 @@ a {
   background-color: var(--primary-color);
   padding: 80px 80px 0 80px;
   margin: 0 auto;
-}
-
-.logo-area {
-  display: none;
-  height: 96px;
-  
 }
 
 .header-content {
@@ -688,17 +691,17 @@ main {
 }
 
 @media (max-width: 768px) {
+  .logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   /* Header  */
 
   .main-header {
     height: 232px;
     padding: 24px 16px;
-  }
-
-  .logo-area {
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .header-title img {
