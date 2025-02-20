@@ -46,20 +46,35 @@ document.addEventListener("DOMContentLoaded", function () {
 
       video.addEventListener("mouseleave", function () {
         if (!video.paused) {
-            playButton.style.opacity = "0"; // محو شدن دکمه اگر موس روی آن نبود
+          playButton.style.opacity = "0"; // محو شدن دکمه اگر موس روی آن نبود
         }
-    });
+      });
 
-    playButton.addEventListener("mouseenter", function () {
+      playButton.addEventListener("mouseenter", function () {
         playButton.style.opacity = "1"; // اگر موس روی دکمه رفت، نمایش داده شود
-    });
+      });
 
-    playButton.addEventListener("mouseleave", function () {
+      playButton.addEventListener("mouseleave", function () {
         if (!video.paused) {
-            playButton.style.opacity = "0"; // وقتی موس از روی دکمه خارج شد و ویدیو در حال پخش بود، محو شود
+          playButton.style.opacity = "0"; // وقتی موس از روی دکمه خارج شد و ویدیو در حال پخش بود، محو شود
         }
-    });
-
+      });
     }
+  }
+
+  if (video) {
+    function updatePoster() {
+      if (window.innerWidth <= 768) {
+        // موبایل
+        video.setAttribute("poster", "images/video-poster-mobile.webp");
+      } else {
+        // دسکتاپ
+        video.setAttribute("poster", "images/video-poster.webp");
+      }
+    }
+
+    updatePoster(); // اجرا هنگام بارگذاری صفحه
+
+    window.addEventListener("resize", updatePoster); // تغییر هنگام تغییر اندازه صفحه
   }
 });

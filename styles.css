@@ -142,8 +142,8 @@
   --secondary-color: #ffd700;
   --text-light: #ffffff;
   --text-dark: #333333;
-  --main-width: 1280px;
-  --max-width: 95%;
+  --main-width: 1440px;
+  --max-width: 100%;
 }
 
 * {
@@ -156,6 +156,7 @@ body {
   font-family: Ravi;
   line-height: 1.6;
   direction: rtl;
+  overflow: hidden visible;
 }
 
 h1,
@@ -188,12 +189,27 @@ a {
   background: #ffb800;
 }
 
+/* Header */
+
 .main-header {
+  position: relative;
   height: 400px;
-  background-color: var(--primary-color);
-  color: var(--text-light);
-  padding: 80px 16px 0 16px;
   text-align: center;
+  color: var(--text-light);
+  background-color: var(--primary-color);
+  padding: 80px 80px 0 80px;
+  margin: 0 auto;
+}
+
+.logo-area {
+  display: none;
+  height: 96px;
+  
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
 }
 
 .header-title {
@@ -207,10 +223,59 @@ a {
   height: 57.442508697509766px;
 }
 
+/* Header effects */
+
+.bg-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.blur-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff80;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  filter: blur(114px);
+  -webkit-filter: blur(114px);
+}
+
+.left-circle {
+  top: -32px;
+  left: -32px;
+}
+
+.right-circle {
+  top: -32px;
+  right: -32px;
+}
+
+.center-circle {
+  position: absolute;
+  top: 0;
+  left: 452px;
+  width: 536px;
+  height: 323px;
+  background-color: #382352;
+  filter: blur(148px);
+  -webkit-filter: blur(148px);
+}
+
+/* Hero banner */
+
 .hero-banner {
   width: var(--main-width);
   max-width: var(--max-width);
-  margin: -192px auto 56px auto;
+  padding: 0 80px;
+  margin: -192px auto 0 auto;
 }
 
 .banner-content {
@@ -269,11 +334,19 @@ video.playing + .play-button .pause-icon {
   display: block;
 }
 
+/* Main content */
+
 main {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
   width: var(--main-width);
   max-width: var(--max-width);
-  margin: 0 auto 96px auto;
+  padding: 56px 80px 96px 80px;
+  margin: 0 auto;
 }
+
+/* Course info */
 
 .course_info {
   position: relative;
@@ -342,6 +415,9 @@ main {
   -o-transform: translateY(-50%);
 }
 
+
+/* CTA box in course info */
+
 .course_cta {
   display: flex;
   flex-direction: column;
@@ -368,11 +444,12 @@ main {
   padding: 20px;
 }
 
+/* Instructors */
+
 .instructors {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-top: 56px;
 }
 
 .instructor-title {
@@ -431,6 +508,7 @@ main {
   letter-spacing: 0px;
   text-align: right;
   color: #333333;
+  line-clamp: 1;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
@@ -454,17 +532,19 @@ main {
   letter-spacing: 0px;
   text-align: right;
   color: #333333;
+  line-clamp: 1;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 
+/* Chapters */
+
 .course-chapters {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-top: 56px;
 }
 
 .chapters-title {
@@ -559,13 +639,14 @@ main {
   display: block;
 }
 
+/* CTA bar */
+
 .cta_bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #3823520f;
   padding: 24px;
-  margin-top: 56px;
 }
 
 .cta_bar--title {
@@ -575,7 +656,7 @@ main {
   line-height: 34px;
   letter-spacing: 0px;
   text-align: center;
-  color: #4D3966;
+  color: #4d3966;
 }
 
 .cta_bar--btn {
@@ -586,7 +667,7 @@ main {
   padding: 16px;
 }
 
-@media (max-width:1040px) {
+@media (max-width: 1040px) {
   .course_info--main {
     width: 70%;
   }
@@ -597,15 +678,139 @@ main {
 }
 
 @media (max-width: 1024px) {
-  .course_info {
-    flex-direction: column;
+  .course_info--main {
+    width: 60%;
   }
 
-  .course_info--logo-container, .course_info--line {
+  .course_cta {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Header  */
+
+  .main-header {
+    height: 232px;
+    padding: 24px 16px;
+  }
+
+  .logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-title img {
     display: none;
   }
 
+  h1 {
+    font-size: 24px;
+    line-height: 42.67px;
+  }
+
+  .header-content p {
+    font-size: 16px;
+    line-height: 24.8px;
+    margin-top: 13px;
+  }
+
+  .blur-circle {
+    display: none;
+  }
+
+  /* Hero banner */
+
+  .hero-banner {
+    padding: 0 16px;
+    margin-top: -95px;
+  }
+
+  .banner-content {
+    padding: 0;
+  }
+
+  .play-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .play-icon {
+    font-size: 14px;
+    height: 14px;
+  }
+
+  .pause-icon {
+    width: 12px;
+  }
+
+  /* Main content */
+
+  main {
+    padding: 40px 16px 56px 16px;
+  }
+
+  /* Course */
+
+  .course_info {
+    flex-direction: column-reverse;
+    padding: 4px;
+  }
+
+  .course_info--main,
+  .course_cta {
+    width: 100%;
+  }
+
+  .course_info--main {
+    padding: 0 20px 20px 20px;
+  }
+
+  .course_info--logo-container,
+  .course_info--line {
+    display: none;
+  }
+
+  /* Instructors */
+
   .instructors-grid {
     grid-template-columns: 1fr;
+  }
+
+  .instructor-pic {
+    width: 80px;
+    height: 80px;
+  }
+
+  .instructor-name {
+    font-size: 14px;
+    line-height: 21.7px;
+  }
+
+  /* Chapters */
+
+  .chapter-toggle-text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  /* CTA bar */
+
+  .cta_bar {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .cta_bar--title,
+  .cta_bar--btn {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .cta_bar--title {
+    width: 80%;
+    font-size: 18px;
+    line-height: 32px;
   }
 }
