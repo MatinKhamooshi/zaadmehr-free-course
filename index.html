@@ -27,9 +27,15 @@
     
     <div class="hero-banner">
         <div class="banner-content">
-            <video class="intro-video" preload="false" poster="images/video-poster.webp">
+            <picture class="video-poster">
+                <source media="(max-width: 768px)" srcset="images/video-poster-mobile.webp">
+                <img class="video-poster" src="images/video-poster.webp" alt="ویدیو معرفی دوره" class="video-poster">
+            </picture>
+            
+            <video class="intro-video" preload="false">
                 <source src="videos/sample.mp4">
             </video>
+            
             <div class="play-button">
                 <span class="play-icon">▶</span>
                 <img class="pause-icon" src="images/pause.svg" />
