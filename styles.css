@@ -1,236 +1,611 @@
+/* فونت‌های Anjoman */
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* فونت‌های اضافه (وزن‌های سفارشی - مقدارهای غیر استاندارد) */
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-UltraBold.woff") format("woff");
+  font-weight: 950;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-Heavy.woff") format("woff");
+  font-weight: 1000;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Anjoman";
+  src: url("/fonts/anjoman/woff/Anjoman-FaNum-SuperHeavy.woff") format("woff");
+  font-weight: 1050;
+  font-style: normal;
+}
+
+/* فونت‌های Ravi */
+
+@font-face {
+  font-family: "Ravi";
+  src: url("/fonts/ravi/Ravi-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ravi";
+  src: url("/fonts/ravi/Ravi-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ravi";
+  src: url("/fonts/ravi/Ravi-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ravi";
+  src: url("/fonts/ravi/Ravi-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ravi";
+  src: url("/fonts/ravi/Ravi-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ravi";
+  src: url("/fonts/ravi/Ravi-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ravi";
+  src: url("/fonts/ravi/Ravi-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
 :root {
-    --primary-color: #4a1e7f;
-    --secondary-color: #ffd700;
-    --text-light: #ffffff;
-    --text-dark: #333333;
-    --main-width: 1440px;
+  --primary-color: #4a1e7f;
+  --secondary-color: #ffd700;
+  --text-light: #ffffff;
+  --text-dark: #333333;
+  --main-width: 1280px;
+  --max-width: 95%;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a {
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    direction: rtl;
+  font-family: Ravi;
+  line-height: 1.6;
+  direction: rtl;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Anjoman;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-btn {
+  font-weight: 700;
+  display: block;
+  color: #382352;
+  text-align: center;
+  cursor: pointer;
+  background: #ffb800;
 }
 
 .main-header {
-    height: 400px;
-    background-color: var(--primary-color);
-    color: var(--text-light);
-    padding: 80px 16px 0 16px;
-    text-align: center;
+  height: 400px;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  padding: 80px 16px 0 16px;
+  text-align: center;
 }
 
 .header-title {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 .header-title img {
-    width: 60.85923767089844px;
-    height: 57.442508697509766px;
+  width: 60.85923767089844px;
+  height: 57.442508697509766px;
 }
 
 .hero-banner {
-    width: var(--main-width);
-    max-width: 100%;
-    padding: 0 80px;
-    margin: -192px auto 56px auto;
+  width: var(--main-width);
+  max-width: var(--max-width);
+  margin: -192px auto 56px auto;
 }
 
 .banner-content {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    background-color: #FCF0C3;
-    padding: 16px;
-    margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background-color: #fcf0c3;
+  padding: 16px;
+  margin: 0 auto;
 }
 
 .intro-video {
-    width: 100%;
+  width: 100%;
 }
 
 .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 56px;
-    height: 56px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 56px;
+  height: 56px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .play-icon {
-    font-size: 20px;
+  font-size: 20px;
+  height: 22px;
+}
+
+.pause-icon {
+  display: none;
+  width: 16px;
+}
+
+video.playing + .play-button .play-icon {
+  display: none;
+}
+
+video.playing + .play-button .pause-icon {
+  display: block;
 }
 
 main {
-    width: var(--main-width);
-    max-width: 100%;
-    padding: 0 80px;
-    margin: auto;
+  width: var(--main-width);
+  max-width: var(--max-width);
+  margin: 0 auto 96px auto;
 }
 
-.course-info {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 24px;
-    background-color: #3823520F;
-    padding: 24px;
+.course_info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  background-color: #3823520f;
+  padding: 24px 40px 24px 24px;
 }
 
-.course_cta--desc {
-    width: 900px;
-    max-width: 70%;
+.course_info--main {
+  width: 900px;
+}
+
+.course_info--title {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: right;
+  margin-bottom: 8px;
+}
+
+.course_info--desc {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.course_info--logo-container {
+  position: static;
+  width: 167px;
+  height: 72px;
+  margin-top: 14px;
+}
+
+.course_info--logo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.course_info--logo-text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  -o-transform: translate(50%, -50%);
+}
+
+.course_info--line {
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  width: 2px;
+  height: calc(100% - 48px);
+  background-color: var(--secondary-color);
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
 }
 
 .course_cta {
-    width: 308px;
-    max-width: 30%;
-    text-align: right;
-    background: white;
-    padding: 26px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  width: 308px;
+  height: fit-content;
+  text-align: right;
+  background: white;
+  padding: 26px 24px;
+}
+
+.course_cta--title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
 }
 
 .course_cta--btn {
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 26px;
-    color: #382352;
-    text-align: center;
-    cursor: pointer;
-    background: #FFB800;
-    padding: 20px;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 20px;
 }
 
-.banner-text {
-    color: white;
-    font-size: 1.1rem;
-    line-height: 1.8;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: right;
-    padding: 0 2rem;
+.instructors {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 56px;
 }
 
-.logo {
-    background: white;
-    padding: 1rem 2rem;
-    position: absolute;
-    top: 0;
-    left: 0;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 25% 100%);
-}
-
-.logo-text {
-    color: #333;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-.logo-subtitle {
-    color: #666;
-    font-size: 0.9rem;
-}
-
-.register-btn {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.instructor-title {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: center;
 }
 
 .instructors-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(416px, 1fr));
+  gap: 16px;
 }
 
 .instructor-card {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 1rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 146px;
+  background-color: #fafafa;
+  border: 1px solid #e6e6e6;
+  padding: 10px;
 }
 
-.instructor-card img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
+.instructor-top {
+  display: flex;
+  gap: 12px;
+}
+
+.instructor-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.instructor-pic {
+  width: 92px;
+  height: 92px;
+}
+
+.instructor-name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #1a1a1a;
+}
+
+.instructor-expertise {
+  display: -webkit-box;
+  font-size: 14px;
+  line-height: 21.7px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #333333;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.instructor-medical_num {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #666666;
+}
+
+.instructor-experiences {
+  display: -webkit-box;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21.7px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #333333;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.course-chapters {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 56px;
+}
+
+.chapters-title {
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.chapters-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.chapter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #f2f2f2;
+  padding: 16px;
+}
+
+.chapter.active {
+  background-color: #3823521a;
 }
 
 .chapter-toggle {
-    width: 100%;
-    padding: 1rem;
-    background-color: var(--primary-color);
-    color: var(--text-light);
-    border: none;
-    text-align: right;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: var(--text-light);
+  text-align: right;
+  border: none;
+  cursor: pointer;
+}
+
+.chapter.active .chapter-toggle {
+  background-color: transparent;
+}
+
+.chapter-toggle-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #382352;
+  pointer-events: none;
+}
+
+.chapter-toggle-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #feca0a;
+  pointer-events: none;
+}
+
+.chapter.active .chapter-toggle-icon {
+  background-color: #feca0a;
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+}
+
+.chapter-toggle-icon svg {
+  width: 24px;
+  height: 24px;
+  color: #382352;
 }
 
 .chapter-content {
+  display: none;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #333333;
+  padding: 10px;
+  background-color: #fafafa;
+}
+
+.chapter.active .chapter-content {
+  display: block;
+}
+
+.cta_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3823520f;
+  padding: 24px;
+  margin-top: 56px;
+}
+
+.cta_bar--title {
+  max-width: 70%;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #4D3966;
+}
+
+.cta_bar--btn {
+  width: 260px;
+  max-width: 30%;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 16px;
+}
+
+@media (max-width:1040px) {
+  .course_info--main {
+    width: 70%;
+  }
+
+  .course_cta {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .course_info {
+    flex-direction: column;
+  }
+
+  .course_info--logo-container, .course_info--line {
     display: none;
-    padding: 1rem;
-    background-color: #f5f5f5;
-}
+  }
 
-.main-footer {
-    background-color: var(--primary-color);
-    color: var(--text-light);
-    padding: 2rem;
-    margin-top: 3rem;
-}
-
-.social-icons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin: 1rem 0;
-}
-
-.social-icon {
-    color: var(--text-light);
-    text-decoration: none;
-}
-
-@media (max-width: 768px) {
-    .banner-content {
-        flex-direction: column;
-    }
-    
-    .instructors-grid {
-        grid-template-columns: 1fr;
-    }
+  .instructors-grid {
+    grid-template-columns: 1fr;
+  }
 }

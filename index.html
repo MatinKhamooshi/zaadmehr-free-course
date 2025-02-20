@@ -19,58 +19,237 @@
     
     <div class="hero-banner">
         <div class="banner-content">
-            <video class="intro-video" preload="false" poster="images/video-poster.jpg">
+                <!-- <?php
+                    $userAgent = $_SERVER['HTTP_USER_AGENT'];
+                    if (preg_match('/(android|iphone|ipad|mobile)/i', $userAgent)) {
+                        echo '<video class="intro-video" preload="false" poster="images/video-poster-mobile.webp">';
+                    } else {
+                        echo '<video class="intro-video" preload="false" poster="images/video-poster.webp"></video>';
+                    }
+                ?> -->
+            <video class="intro-video" preload="false" poster="images/video-poster.webp">
                 <source src="videos/sample.mp4">
             </video>
             <div class="play-button">
                 <span class="play-icon">▶</span>
+                <img class="pause-icon" src="images/pause.svg" />
             </div>
         </div>
     </div>
 
     <main class="main-content">
-        <section class="course-info">
-            <div class="course_cta--desc">
-                <h2 class="course_cta--title">شرکت در دوره</h2>
-                با آموزش های رایگان ما در زمینه سلامت و تغذیه، مسیر سالم زیستی را آغاز کنید. ما به شما کمک می‌کنیم تا با روش‌های علمی و کاربردی، سبک زندگی سالم‌تری را تجربه کنید. همین حالا ثبت نام کنید و از مزایای دوره‌های آموزشی ما بهره‌مند شوید.
+        <section class="course_info">
+            <div class="course_info--main">
+                <h2 class="course_info--title">شرکت در دوره</h2>
+                <p class="course_info--desc">
+                    دوره آموزشی زادمهر با حضور پزشکان متخصص طب سنتی، اصول سالم‌زیستی شامل تغذیه مناسب، خواب کافی، ورزش، آرامش روان و پاکسازی بدن را به‌صورت رایگان آموزش می‌دهد. با آموزه‌های رایگان این دوره، سالم‌تر، شاداب‌تر و پرانرژی‌تر از همیشه زندگی کنید.
+                </p>
+
+                <div class="course_info--logo-container">
+                    <div class="course_info--logo">
+                        <svg class="course_info--logo-box" width="167" height="72" viewBox="0 0 167 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 18L39.5 0H167V72H0V36L19 18Z" fill="white"/>
+                        </svg>
+                        <img class="course_info--logo-text" src="/images/Zaadmehr-Healthy-Text.svg">
+                    </div>
+                </div>
             </div>
+
+            <div class="course_info--line"></div>
+
             <div class="course_cta">
-                <h2 class="course_cta--text">همین حالا بصورت کاملا رایگان سالم زیستی را شروع کنید</h2>
-                <a href="#" class="course_cta--btn">شرکت در دوره</a>
+                <h2 class="course_cta--title">
+                    همین حالا بصورت کاملا رایگان
+                    <br>
+                    ســالم زیــسـتـی را شـروع کـنیـد
+                </h2>
+                <a href="#" class="course_cta--btn main-btn">شرکت در دوره</a>
             </div>
     
-    
-            <!-- <div class="logo">
-                <div class="logo-text">زادمهر</div>
-                <div class="logo-subtitle">فروشگاه سلامتی</div>
-            </div> -->
         </section>
 
         <section class="instructors">
-            <h2>مدرسین دوره</h2>
+            <h2 class="instructor-title">مدرسین دوره</h2>
             <div class="instructors-grid">
-                <!-- Repeated 6 times for each instructor -->
                 <div class="instructor-card">
-                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/zadmehr___preview-4AXjiSQXbQYI3l8dNCKBFuswfE9PbV.png" alt="دکتر مریم مظفر">
-                    <h3>دکتر مریم مظفر</h3>
-                    <p>متخصص گیاهان دارویی و طب سنتی</p>
-                    <p class="instructor-id">۰۹۱۲۳۴۵۶۷۸۹ :شماره تماس</p>
+                    <div class="instructor-top">
+                        <img class="instructor-pic" src="images/Dr-Monfared.webp" alt="دکتر منفرد">
+                        <div class="instructor-info">
+                            <h3 class="instructor-name">دکتر مریم منفرد</h3>
+                            <p class="instructor-expertise">پزشک متخصص طب سنتی</p>
+                            <p class="instructor-medical_num">
+                                شماره نظام پزشکی :
+                                <strong>40407</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="instructor-experiences">
+                        رتبه اول طب سنتی ایرانی دانشگاه علوم پزشکی ایران
+                    </p>
                 </div>
-                <!-- Repeat for other instructors -->
+
+                <div class="instructor-card">
+                    <div class="instructor-top">
+                        <img class="instructor-pic" src="images/Dr-Manouchehri.webp" alt="دکتر منوچهری">
+                        <div class="instructor-info">
+                            <h3 class="instructor-name">دکتر محسن منوچهری</h3>
+                            <p class="instructor-expertise">
+                                متخصص طب سنتی ایرانی
+                            </p>
+                            <p class="instructor-medical_num">
+                                شماره نظام پزشکی :
+                                <strong>162627</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="instructor-experiences">
+                        رتبه 1 دکتری تخصصی شهید بهشتی
+                    </p>
+                </div>
+
+                <div class="instructor-card">
+                    <div class="instructor-top">
+                        <img class="instructor-pic" src="images/Dr-Abrishamkar.webp" alt="دکتر ابریشم‌کار">
+                        <div class="instructor-info">
+                            <h3 class="instructor-name">دکتر محبوبه ابریشم‌کار</h3>
+                            <p class="instructor-expertise">
+                                پزشک متخصص طب سنتی
+                            </p>
+                            <p class="instructor-medical_num">
+                                شماره نظام پزشکی :
+                                <strong>
+                                    111879
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="instructor-experiences">
+                        مدرس ورکشاپ‌های تخصصی
+                    </p>
+                </div>
+
+                <div class="instructor-card">
+                    <div class="instructor-top">
+                        <img class="instructor-pic" src="images/Dr-Sarrafan.webp" alt="دکتر صرافان">
+                        <div class="instructor-info">
+                            <h3 class="instructor-name">دکتر معصومه صرافان</h3>
+                            <p class="instructor-expertise">
+                                پزشک طب سنتی
+                            </p>
+                            <p class="instructor-medical_num">
+                                شماره نظام پزشکی :
+                                <strong>
+                                    45337
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="instructor-experiences">
+                        درمان بیش از 800 هزار بیمار در حوزه طب سنتی ایرانی
+                    </p>
+                </div>
+
+                <div class="instructor-card">
+                    <div class="instructor-top">
+                        <img class="instructor-pic" src="images/Dr-Moradi.webp" alt="دکتر مرادی">
+                        <div class="instructor-info">
+                            <h3 class="instructor-name">دکتر فاطمه مرادی</h3>
+                            <p class="instructor-expertise">
+                                پزشک متخصص طب سنتی
+                            </p>
+                            <p class="instructor-medical_num">
+                                شماره نظام پزشکی :
+                                <strong>
+                                    130247
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="instructor-experiences">
+                        فعالیت پژوهشی در طب سنتی از سال 82 و متخصص مسائل بارداری
+                    </p>
+                </div>
+
+                <div class="instructor-card">
+                    <div class="instructor-top">
+                        <img class="instructor-pic" src="images/Dr-Salmanian.webp" alt="دکتر سلمانیان">
+                        <div class="instructor-info">
+                            <h3 class="instructor-name">دکتر محبوبه سلمانیان</h3>
+                            <p class="instructor-expertise">
+                                متخصص طب سنتی
+                            </p>
+                            <p class="instructor-medical_num">
+                                شماره نظام پزشکی :
+                                <strong>
+                                    60579
+                                </strong>
+                            </p>
+                        </div>
+                    </div>
+                    <p class="instructor-experiences">
+                        دکترای تخصصی (Ph.D) - طب سنتی ایرانی
+                    </p>
+                </div>
             </div>
         </section>
 
         <section class="course-chapters">
-            <h2>سرفصل های دوره</h2>
+            <h2 class="chapters-title">سرفصل های دوره</h2>
             <div class="chapters-list">
-                <div class="chapter">
-                    <button class="chapter-toggle">سرفصل اول</button>
+                <div class="chapter active">
+                    <button class="chapter-toggle">
+                        <h3 class="chapter-toggle-text">سرفصل اول</h3>
+                        <div class="chapter-toggle-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" transform="matrix(0 -1 1 0 0 24)" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+                                <path d="M12 16.5L4.5 9L5.55 7.95L12 14.4L18.45 7.95L19.5 9L12 16.5Z" fill="#382352"/>
+                            </svg>                            
+                        </div>
+                    </button>
                     <div class="chapter-content">
                         <p>محتوای سرفصل اول...</p>
                     </div>
                 </div>
-                <!-- Repeat for other chapters -->
+                
+                <div class="chapter">
+                    <button class="chapter-toggle">
+                        <h3 class="chapter-toggle-text">سرفصل دوم</h3>
+                        <div class="chapter-toggle-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" transform="matrix(0 -1 1 0 0 24)" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+                                <path d="M12 16.5L4.5 9L5.55 7.95L12 14.4L18.45 7.95L19.5 9L12 16.5Z" fill="#382352"/>
+                            </svg>                            
+                        </div>
+                    </button>
+                    <div class="chapter-content">
+                        <p>محتوای سرفصل دوم...</p>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <button class="chapter-toggle">
+                        <h3 class="chapter-toggle-text">سرفصل سوم</h3>
+                        <div class="chapter-toggle-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" transform="matrix(0 -1 1 0 0 24)" fill="white" fill-opacity="0.01" style="mix-blend-mode:multiply"/>
+                                <path d="M12 16.5L4.5 9L5.55 7.95L12 14.4L18.45 7.95L19.5 9L12 16.5Z" fill="#382352"/>
+                            </svg>                            
+                        </div>
+                    </button>
+                    <div class="chapter-content">
+                        <p>محتوای سرفصل سوم...</p>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <section class="cta_bar">
+            <h2 class="cta_bar--title">
+                همین حالا بصورت کاملا رایگان، سالم زیستی را شروع کنید
+            </h2>
+            <a href="#" class="cta_bar--btn main-btn">
+                شرکت در دوره
+            </a>
         </section>
     </main>
 
