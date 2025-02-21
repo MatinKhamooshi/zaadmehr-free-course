@@ -180,6 +180,14 @@ a {
   text-decoration: none;
 }
 
+/* Animation */
+
+@keyframes pulse {
+  100% {
+    box-shadow: 0 0 0 45px rgba(193,244,246,0);
+  }
+}
+
 .main-btn {
   font-weight: 700;
   display: block;
@@ -188,6 +196,8 @@ a {
   cursor: pointer;
   background: #ffb800;
 }
+
+/* Logo area */
 
 .logo-area {
   display: none;
@@ -338,6 +348,9 @@ a {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  box-shadow: rgba(255, 255, 255, 0.698) 0px 0px 0px 0px;
+  animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
+  -webkit-animation: 1.2s cubic-bezier(0.8, 0, 0, 1) 0s infinite normal none running pulse;
 }
 
 .play-icon {
