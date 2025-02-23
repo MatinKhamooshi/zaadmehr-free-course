@@ -692,7 +692,7 @@ main {
   font-size: 22px;
   line-height: 34px;
   letter-spacing: 0px;
-  text-align: center;
+  text-align: right;
   color: #4d3966;
 }
 
@@ -848,6 +848,7 @@ main {
   .cta_bar--btn {
     width: 100%;
     max-width: 100%;
+    text-align: center;
   }
 
   .cta_bar--title {
