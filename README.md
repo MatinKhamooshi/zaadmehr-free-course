@@ -1,3 +1,31 @@
+## Preview | پیش‌نمایش
+
+<div style="display:flex; gap:16px;">
+
+<div style="width:60%;">
+
+<p>
+Desktop
+</p>
+
+![Desktop Preview](images/landing-page-preview-desktop.webp)
+
+</div>
+
+<div style="width:40%; max-height:365px; overflow:auto;">
+
+<p>
+Mobile
+</p>
+
+![Mobile Preview](images/landing-page-preview-mobile.webp)
+
+</div>
+
+</div>
+
+
+
 # Healthy Lifestyle Course
 
 A free online course offering education on healthy lifestyle principles by top traditional medicine doctors.
