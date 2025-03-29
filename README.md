@@ -1,14 +1,12 @@
-## Preview | پیش‌نمایش
-
-| Desktop | Mobile |
-|---------|--------|
-| ![Desktop Preview](images/landing-page-preview-desktop.webp) | ![Mobile Preview](images/landing-page-preview-mobile.webp) |
-
-
-
 # Healthy Lifestyle Course
 
 A free online course offering education on healthy lifestyle principles by top traditional medicine doctors.
+
+## Preview
+
+| Desktop | Mobile |
+|---------|--------|
+| Soon | Soon |
 
 ## About the Project
 
@@ -48,6 +46,12 @@ The course is presented by specialized traditional medicine physicians with exte
 # دوره آموزش سبک زندگی سالم
 
 یک دوره آنلاین رایگان که اصول سبک زندگی سالم را توسط بهترین پزشکان طب سنتی آموزش می‌دهد.
+
+## Preview | پیش‌نمایش
+
+| Desktop | Mobile |
+|---------|--------|
+| ![Desktop Preview](images/landing-page-preview-desktop.webp) | ![Mobile Preview](images/landing-page-preview-mobile.webp) |
 
 ## درباره پروژه
 
