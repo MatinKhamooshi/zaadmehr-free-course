@@ -593,7 +593,7 @@ main {
     margin-top: 13px;
   }
 
-  .blur-circle {
+  .blur-circle, .center-circle {
     display: none;
   }
 
