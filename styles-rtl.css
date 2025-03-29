@@ -1,64 +1,66 @@
+@import url(styles.css);
+
 /* فونت‌های Anjoman */
 
 @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-Thin.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-Thin.woff") format("woff");
     font-weight: 100;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-ExtraLight.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-ExtraLight.woff") format("woff");
     font-weight: 200;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-Light.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-Light.woff") format("woff");
     font-weight: 300;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-Regular.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-Regular.woff") format("woff");
     font-weight: 400;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-Medium.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-SemiBold.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-Bold.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-Bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-ExtraBold.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-ExtraBold.woff") format("woff");
     font-weight: 800;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-Black.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-Black.woff") format("woff");
     font-weight: 900;
     font-style: normal;
   }
@@ -67,21 +69,21 @@
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-UltraBold.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-UltraBold.woff") format("woff");
     font-weight: 950;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-Heavy.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-Heavy.woff") format("woff");
     font-weight: 1000;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Anjoman";
-    src: url("https://zaadmehr.com/fonts/anjoman/woff/Anjoman-FaNum-SuperHeavy.woff") format("woff");
+    src: url("https://zaadmehr.ir/fonts/anjoman/woff/Anjoman-FaNum-SuperHeavy.woff") format("woff");
     font-weight: 1050;
     font-style: normal;
   }
@@ -90,49 +92,49 @@
   
   @font-face {
     font-family: "Ravi";
-    src: url("https://zaadmehr.com/fonts/ravi/Ravi-Thin.ttf") format("truetype");
+    src: url("https://zaadmehr.ir/fonts/ravi/Ravi-Thin.ttf") format("truetype");
     font-weight: 100;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Ravi";
-    src: url("https://zaadmehr.com/fonts/ravi/Ravi-Light.ttf") format("truetype");
+    src: url("https://zaadmehr.ir/fonts/ravi/Ravi-Light.ttf") format("truetype");
     font-weight: 300;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Ravi";
-    src: url("https://zaadmehr.com/fonts/ravi/Ravi-Regular.ttf") format("truetype");
+    src: url("https://zaadmehr.ir/fonts/ravi/Ravi-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Ravi";
-    src: url("https://zaadmehr.com/fonts/ravi/Ravi-Medium.ttf") format("truetype");
+    src: url("https://zaadmehr.ir/fonts/ravi/Ravi-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Ravi";
-    src: url("https://zaadmehr.com/fonts/ravi/Ravi-SemiBold.ttf") format("truetype");
+    src: url("https://zaadmehr.ir/fonts/ravi/Ravi-SemiBold.ttf") format("truetype");
     font-weight: 600;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Ravi";
-    src: url("https://zaadmehr.com/fonts/ravi/Ravi-Bold.ttf") format("truetype");
+    src: url("https://zaadmehr.ir/fonts/ravi/Ravi-Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
   }
   
   @font-face {
     font-family: "Ravi";
-    src: url("https://zaadmehr.com/fonts/ravi/Ravi-ExtraBold.ttf") format("truetype");
+    src: url("https://zaadmehr.ir/fonts/ravi/Ravi-ExtraBold.ttf") format("truetype");
     font-weight: 800;
     font-style: normal;
   }
@@ -147,6 +149,7 @@
   body {
     font-family: Ravi;
     direction: rtl;
+    text-align: right;
   }
   
   h1,
@@ -157,504 +160,13 @@
   h6 {
     font-family: Anjoman;
   }
-    
-  /* Poster hidden when video playing */
-
-  .play-icon {
-    font-size: 20px;
-    height: 22px;
-  }
-  video.playing + .play-button .play-icon {
-    display: none;
-  }
-  
-  video.playing + .play-button .pause-icon {
-    display: block;
-  }
-  
-  /* Main content */
-  
-  main {
-    display: flex;
-    flex-direction: column;
-    gap: 56px;
-    width: var(--main-width);
-    max-width: var(--max-width);
-    padding: 56px 80px 96px 80px;
-    margin: 0 auto;
-  }
-  
+ 
   /* Course info */
-  
+
   .course_info {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
-    background-color: #3823520f;
     padding: 24px 40px 24px 24px;
   }
   
-  .course_info--main {
-    width: 900px;
-  }
-  
-  .course_info--title {
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 34px;
-    letter-spacing: 0px;
-    text-align: right;
-    margin-bottom: 8px;
-  }
-  
-  .course_info--desc {
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0px;
-    text-align: right;
-  }
-  
-  .course_info--logo-container {
-    position: static;
-    width: 167px;
-    height: 72px;
-    margin-top: 14px;
-  }
-  
-  .course_info--logo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-  
-  .course_info--logo-text {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    -webkit-transform: translate(50%, -50%);
-    -moz-transform: translate(50%, -50%);
-    -ms-transform: translate(50%, -50%);
-    -o-transform: translate(50%, -50%);
-  }
-  
   .course_info--line {
-    position: absolute;
-    top: 50%;
     right: 24px;
-    width: 2px;
-    height: calc(100% - 48px);
-    background-color: var(--secondary-color);
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
   }
-  
-  
-  /* CTA box in course info */
-  
-  .course_cta {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 16px;
-    width: 308px;
-    height: fit-content;
-    text-align: right;
-    background: white;
-    padding: 26px 24px;
-  }
-  
-  .course_cta--title {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0px;
-    text-align: center;
-  }
-  
-  .course_cta--btn {
-    font-size: 20px;
-    line-height: 26px;
-    padding: 20px;
-  }
-  
-  /* Instructors */
-  
-  .instructors {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-  
-  .instructor-title {
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 34px;
-    letter-spacing: 0px;
-    text-align: center;
-  }
-  
-  .instructors-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(416px, 1fr));
-    gap: 16px;
-  }
-  
-  .instructor-card {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    height: 146px;
-    background-color: #fafafa;
-    border: 1px solid #e6e6e6;
-    padding: 10px;
-  }
-  
-  .instructor-top {
-    display: flex;
-    gap: 12px;
-  }
-  
-  .instructor-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  
-  .instructor-pic {
-    width: 92px;
-    height: 92px;
-  }
-  
-  .instructor-name {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0px;
-    text-align: right;
-    color: #1a1a1a;
-  }
-  
-  .instructor-expertise {
-    display: -webkit-box;
-    font-size: 14px;
-    line-height: 21.7px;
-    letter-spacing: 0px;
-    text-align: right;
-    color: #333333;
-    line-clamp: 1;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  
-  .instructor-medical_num {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0px;
-    text-align: right;
-    color: #666666;
-  }
-  
-  .instructor-experiences {
-    display: -webkit-box;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21.7px;
-    letter-spacing: 0px;
-    text-align: right;
-    color: #333333;
-    line-clamp: 1;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
-  
-  /* Chapters */
-  
-  .course-chapters {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-  
-  .chapters-title {
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 34px;
-    letter-spacing: 0px;
-    text-align: right;
-  }
-  
-  .chapters-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  
-  .chapter {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    background-color: #f2f2f2;
-    padding: 16px;
-  }
-  
-  .chapter.active {
-    background-color: #3823521a;
-  }
-  
-  .chapter-toggle {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    color: var(--text-light);
-    text-align: right;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .chapter.active .chapter-toggle {
-    background-color: transparent;
-  }
-  
-  .chapter-toggle-text {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0px;
-    text-align: right;
-    color: #382352;
-    pointer-events: none;
-  }
-  
-  .chapter-toggle-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: #ffffff;
-    border: 1px solid #feca0a;
-    pointer-events: none;
-  }
-  
-  .chapter.active .chapter-toggle-icon {
-    background-color: #feca0a;
-    transform: rotateX(180deg);
-    -webkit-transform: rotateX(180deg);
-    -moz-transform: rotateX(180deg);
-    -ms-transform: rotateX(180deg);
-    -o-transform: rotateX(180deg);
-  }
-  
-  .chapter-toggle-icon svg {
-    width: 24px;
-    height: 24px;
-    color: #382352;
-  }
-  
-  .chapter-content {
-    display: none;
-    font-size: 16px;
-    line-height: 28px;
-    letter-spacing: 0px;
-    text-align: right;
-    color: #333333;
-    padding: 10px;
-    background-color: #fafafa;
-  }
-  
-  .chapter.active .chapter-content {
-    display: block;
-  }
-  
-  /* CTA bar */
-  
-  .cta_bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #3823520f;
-    padding: 24px;
-  }
-  
-  .cta_bar--title {
-    max-width: 70%;
-    font-weight: 800;
-    font-size: 22px;
-    line-height: 34px;
-    letter-spacing: 0px;
-    text-align: right;
-    color: #4d3966;
-  }
-  
-  .cta_bar--btn {
-    width: 260px;
-    max-width: 30%;
-    font-size: 18px;
-    line-height: 24px;
-    padding: 16px;
-  }
-  
-  @media (max-width: 1040px) {
-    .course_info--main {
-      width: 70%;
-    }
-  
-    .course_cta {
-      width: 30%;
-    }
-  }
-  
-  @media (max-width: 1024px) {
-    .course_info--main {
-      width: 60%;
-    }
-  
-    .course_cta {
-      width: 40%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .logo-area {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  
-    /* Header  */
-  
-    .main-header {
-      height: 232px;
-      padding: 24px 16px;
-    }
-  
-    .header-title img {
-      display: none;
-    }
-  
-    h1 {
-      font-size: 24px;
-      line-height: 42.67px;
-    }
-  
-    .header-content p {
-      font-size: 16px;
-      line-height: 24.8px;
-      margin-top: 13px;
-    }
-  
-    .blur-circle {
-      display: none;
-    }
-  
-    /* Hero banner */
-  
-    .hero-banner {
-      padding: 0 16px;
-      margin-top: -95px;
-    }
-  
-    .banner-content {
-      padding: 0;
-    }
-  
-    .video-poster {
-      width: 100%;
-      height: 100%;
-    }
-  
-    .play-button {
-      width: 40px;
-      height: 40px;
-    }
-  
-    .play-icon {
-      font-size: 14px;
-      height: 14px;
-    }
-  
-    .pause-icon {
-      width: 12px;
-    }
-  
-    /* Main content */
-  
-    main {
-      padding: 40px 16px 56px 16px;
-    }
-  
-    /* Course */
-  
-    .course_info {
-      flex-direction: column-reverse;
-      padding: 4px;
-    }
-  
-    .course_info--main,
-    .course_cta {
-      width: 100%;
-    }
-  
-    .course_info--main {
-      padding: 0 20px 20px 20px;
-    }
-  
-    .course_info--logo-container,
-    .course_info--line {
-      display: none;
-    }
-  
-    /* Instructors */
-  
-    .instructors-grid {
-      grid-template-columns: 1fr;
-    }
-  
-    .instructor-pic {
-      width: 80px;
-      height: 80px;
-    }
-  
-    .instructor-name {
-      font-size: 14px;
-      line-height: 21.7px;
-    }
-  
-    /* Chapters */
-  
-    .chapter-toggle-text {
-      font-size: 18px;
-      line-height: 24px;
-    }
-  
-    /* CTA bar */
-  
-    .cta_bar {
-      flex-direction: column;
-      gap: 24px;
-    }
-  
-    .cta_bar--title,
-    .cta_bar--btn {
-      width: 100%;
-      max-width: 100%;
-      text-align: center;
-    }
-  
-    .cta_bar--title {
-      width: 80%;
-      font-size: 18px;
-      line-height: 32px;
-    }
-  }  
