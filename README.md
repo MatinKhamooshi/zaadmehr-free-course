@@ -2,11 +2,11 @@
 
 A free online course offering education on healthy lifestyle principles by top traditional medicine doctors.
 
-## Preview
+## English Preview
 
 | Desktop | Mobile |
 |---------|--------|
-| Soon | Soon |
+| ![Desktop Preview](images/landing-page-preview-desktop-en.webp) | ![Mobile Preview](images/landing-page-preview-mobile-en.webp) |
 
 ## About the Project
 
@@ -47,11 +47,11 @@ The course is presented by specialized traditional medicine physicians with exte
 
 یک دوره آنلاین رایگان که اصول سبک زندگی سالم را توسط بهترین پزشکان طب سنتی آموزش می‌دهد.
 
-## Preview | پیش‌نمایش
+## پیش‌نمایش فارسی
 
-| Desktop | Mobile |
+| دسکتاپ | موبایل |
 |---------|--------|
-| ![Desktop Preview](images/landing-page-preview-desktop.webp) | ![Mobile Preview](images/landing-page-preview-mobile.webp) |
+| ![Desktop Preview](images/landing-page-preview-desktop-fa.webp) | ![Mobile Preview](images/landing-page-preview-mobile-fa.webp) |
 
 ## درباره پروژه
 
