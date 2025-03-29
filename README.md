@@ -2,7 +2,7 @@
 
 A free online course offering education on healthy lifestyle principles by top traditional medicine doctors.
 
-## English Preview
+## English Preview: [Live Preview](https://matinkhamooshi.ir/lifestyle-landing/)
 
 | Desktop | Mobile |
 |---------|--------|
@@ -47,7 +47,7 @@ The course is presented by specialized traditional medicine physicians with exte
 
 یک دوره آنلاین رایگان که اصول سبک زندگی سالم را توسط بهترین پزشکان طب سنتی آموزش می‌دهد.
 
-## پیش‌نمایش فارسی
+## پیش‌نمایش فارسی: [پیش‌نمایش زنده](https://matinkhamooshi.ir/lifestyle-landing/fa/)
 
 | دسکتاپ | موبایل |
 |---------|--------|
